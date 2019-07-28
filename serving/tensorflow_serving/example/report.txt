@@ -1,0 +1,21 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 1 issues that require attention
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+File: resnet_client_grpc.py
+--------------------------------------------------------------------------------
+resnet_client_grpc.py:57:6: ERROR: Using member tf.contrib.util.make_tensor_proto in deprecated module tf.contrib. tf.contrib.util.make_tensor_proto cannot be converted automatically. tf.contrib will not be distributed with TensorFlow 2.0, please consider an alternative in non-contrib TensorFlow, a community-maintained repository such as tensorflow/addons, or fork the required code.
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'resnet_client_grpc.py'
+ outputting to 'resnet_client_grpc.py'
+--------------------------------------------------------------------------------
+
+57:6: ERROR: Using member tf.contrib.util.make_tensor_proto in deprecated module tf.contrib. tf.contrib.util.make_tensor_proto cannot be converted automatically. tf.contrib will not be distributed with TensorFlow 2.0, please consider an alternative in non-contrib TensorFlow, a community-maintained repository such as tensorflow/addons, or fork the required code.
+--------------------------------------------------------------------------------
+
